@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd0ebcd0-3ec2-49aa-bc8b-654df4acd226" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/stock-prediction-main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/.ipynb_checkpoints/final_lstm-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/GBDT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/Zhongxing财务_删0_label0.01_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/final_lstm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/finance_LSTM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/label.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/model/label.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/model/zx_event+senti_0.01_删0.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/model/zx_event_0.01_删0.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/model/zx_finance_0.01_删0.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/multi_input_LSTM_event+senti.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/multi_input_LSTM_event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/test/Zhongxing_event+senti_0.01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/test/Zhongxing_event+senti_new0.01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/test/Zhongxing_event+senti_new10.01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/test/Zhongxing_event+senti_test0.01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/中兴财务.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/中兴通讯10-20财务数据.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/合并财务新闻情感/财务和新闻和情感2338.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/格力电器10-20财务数据.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/财务和新闻矩阵合并.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/models/财务和新闻矩阵合并1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/newsMatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/中兴新闻矩阵_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/可视化/.ipynb_checkpoints/建立可视化数据-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/可视化/1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/可视化/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/可视化/Zhongxing_event+senti_0.01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/可视化/Zhongxing财务_删0_label0.01_forVisual_afterMerge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/可视化/test_visual_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/可视化/可视化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/可视化/可视化的数据/test_visual_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/可视化/建立可视化数据.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/可视化/建立可视化输入数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/.ipynb_checkpoints/新闻情感和预测结果合并-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/TechNews_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/.ipynb_checkpoints/bi-lstm的原来的文件的测试（中文训练）-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/.ipynb_checkpoints/导入模型运行bilstm——new-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/.ipynb_checkpoints/直接导入模型运行（中文测试）-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/Bi-LSTM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/TechNews_modified_500_fenci.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/TechNews_predict_merge_-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/TechNews_predict_merge_-1_new.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/TechNews_predict_merge_-1_new1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/bi-lstm测试/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/bi-lstm测试/BI-ls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/bi-lstm测试/TechNewsbyXu_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/bi-lstm测试/TechXinweiNewsTitle_sentiment_labeled.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/bi-lstm测试/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/bi-lstm测试/label2idx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/bi-lstm测试/stopwords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/bi-lstm测试/summarys/eval/events.out.tfevents.1624678050.DESKTOP-IR0555N" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/bi-lstm测试/summarys/eval/events.out.tfevents.1624679399.DESKTOP-IR0555N" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/bi-lstm测试/summarys/train/events.out.tfevents.1624678046.DESKTOP-IR0555N" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/bi-lstm测试/summarys/train/events.out.tfevents.1624679396.DESKTOP-IR0555N" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/bi-lstm测试/word2idx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/bi-lstm测试/word2vecChina.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/bi-lstm测试/zx_predict_-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/bi-lstm的原来的文件的测试（中文训练）.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/merge合并预测结果.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/my-model-1000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/my-model-1000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/my-model-1000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/my-model-1100.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/my-model-1100.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/my-model-1100.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/my-model-700.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/my-model-700.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/my-model-700.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/my-model-800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/my-model-800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/my-model-800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/my-model-900.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/my-model-900.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/model/my-model-900.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/savedModel/saved_model.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/savedModel/variables/variables.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/model/Bi-LSTM/savedModel/variables/variables.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/summarys/eval/events.out.tfevents.1622861211.DESKTOP-IR0555N" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/summarys/eval/events.out.tfevents.1624677611.DESKTOP-IR0555N" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/summarys/eval/events.out.tfevents.1624799728.DESKTOP-IR0555N" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/summarys/eval/events.out.tfevents.1624799790.DESKTOP-IR0555N" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/summarys/train/events.out.tfevents.1622861208.DESKTOP-IR0555N" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/summarys/train/events.out.tfevents.1624677607.DESKTOP-IR0555N" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/summarys/train/events.out.tfevents.1624799725.DESKTOP-IR0555N" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/summarys/train/events.out.tfevents.1624799787.DESKTOP-IR0555N" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/zx_predict_-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/中兴分词情感预测结果.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/导入模型运行bilstm——new.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/最新可以运行的结果TechNewsbyXu_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/code/直接导入模型运行（中文测试）.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/TechXinweiNewsTitle_sentiment_labeled.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/english.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/labeledTrain.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/preProcess/.ipynb_checkpoints/fenci_test-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/preProcess/TechNews_modified_500_fenci_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/preProcess/TechNewsbyXu_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/preProcess/fenci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/preProcess/fenci_test.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/preProcess/labeledTrain.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/preProcess/stopwords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/preProcess/xdata.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/preProcess/xdataChina.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/preProcess/xdataChina_modified.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/preProcess/xdataChina_modified_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/wordJson/label2idx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/wordJson/word2idx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/data/xdatapredict.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-100.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-100.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-100.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-1000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-1000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-1000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-1100.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-1100.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-1100.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-300.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-300.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-300.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-700.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-700.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-700.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-900.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-900.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/model/my-model-900.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/savedModel/saved_model.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/savedModel/variables/variables.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/model/Bi-LSTM/savedModel/variables/variables.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/word2vec/word2Vec.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/Bi-LSTM/word2vec/word2vecChina.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/MergeSentimentmatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/afterMerge/Zhongxing财务_删0_label0.01_forVisual_afterMerge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/sentiMerge/Zhongxing_predict_mergeNews-1_with财务删0_afterMerge_sentiMerge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/新闻和情感矩阵合并.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/合并情感维度/新闻情感和预测结果合并.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/.ipynb_checkpoints/mrege-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/.ipynb_checkpoints/将矩阵里有0的删除-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/.ipynb_checkpoints/新闻和情感矩阵合并-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/.ipynb_checkpoints/新闻和财政归一化的合并-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/.ipynb_checkpoints/查看预测的结果和原来的那个是不是一样的-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/TechNews_predict_merge_-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/TechNews_predict_merge_-2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/Zhongxing财务_删0_label0.01_forVisual_afterMerge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/mrege.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/Zhongxing财务_删0_label0.01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/Zhongxing财务_删0_label0.02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/Zhongxing财务_删0_label0.03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/Zhongxing财务_删0_label0.04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/Zhongxing财务_删0_label0.05.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/Zhongxing财务_删0_label0.06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/Zhongxing财务_删0_label0.07.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/Zhongxing财务_删0_label0.08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/Zhongxing财务_删0_label0.09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/afterMerge/Zhongxing财务_删0_label0.01_forVisual_afterMerge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/afterMerge/Zhongxing财务_删0_label0.02_forVisual_afterMerge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/afterMerge/Zhongxing财务_删0_label0.03_forVisual_afterMerge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/afterMerge/Zhongxing财务_删0_label0.04_forVisual_afterMerge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/afterMerge/Zhongxing财务_删0_label0.05_forVisual_afterMerge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/afterMerge/Zhongxing财务_删0_label0.06_forVisual_afterMerge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/afterMerge/Zhongxing财务_删0_label0.07_forVisual_afterMerge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/afterMerge/Zhongxing财务_删0_label0.08_forVisual_afterMerge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/afterMerge/Zhongxing财务_删0_label0.09_forVisual_afterMerge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/afterMerge/event/Zhongxing财务_删0_label0.01_forVisual_afterMerge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/afterMerge/event/中兴通讯10-20财务数据.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/afterMerge/sentiment/Zhongxing财务_删0_label0.01_forVisual_afterMerge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/afterMerge/sentiment/中兴通讯10-20财务数据.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/zscore/Zhongxing财务_删0_label0.01_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/zscore/Zhongxing财务_删0_label0.02_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/zscore/Zhongxing财务_删0_label0.03_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/zscore/Zhongxing财务_删0_label0.04_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/zscore/Zhongxing财务_删0_label0.05_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/zscore/Zhongxing财务_删0_label0.06_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/zscore/Zhongxing财务_删0_label0.07_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/zscore/Zhongxing财务_删0_label0.08_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/threshold/zscore/Zhongxing财务_删0_label0.09_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/之前的文件（乱码/TechNews_predict_merge_-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/删0后的财务数据.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/删除文档中的0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/合并出新闻矩阵/.ipynb_checkpoints/新闻情感和预测结果合并-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/合并出新闻矩阵/Zhongxing财务_删0_label0.01_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/合并出新闻矩阵/中兴新闻矩阵_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/合并出新闻矩阵/新闻情感和预测结果合并.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/合并出新闻矩阵/财务和新闻矩阵合并（归一化的财务矩阵/Zhongxing财务_删0_label0.01_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/合并出新闻矩阵/财务和新闻矩阵合并（归一化的财务矩阵/Zhongxing财务_删0_label0.01_zscore1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/合并出新闻矩阵/财务和新闻矩阵合并（归一化的财务矩阵/Zhongxing财务_删0_label0.01_zscore2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/合并出财务矩阵/.ipynb_checkpoints/新闻情感和预测结果合并-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/合并出财务矩阵/Zhongxing财务_删0_label0.01_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/合并出财务矩阵/中兴新闻矩阵_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/合并出财务矩阵/新闻情感和预测结果合并.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/合并出财务矩阵/财务和新闻矩阵合并.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/将矩阵里有0的删除.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/归一化处理zscore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/新闻和情感矩阵合并.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/新闻和财政归一化的合并.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/查看预测的结果和原来的那个是不是一样的.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务和新闻矩阵合并.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/Zhongxing财务_删0_label0.01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/Zhongxing财务_删0_label0.02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/Zhongxing财务_删0_label0.03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/Zhongxing财务_删0_label0.04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/Zhongxing财务_删0_label0.05.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/Zhongxing财务_删0_label0.06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/Zhongxing财务_删0_label0.07.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/Zhongxing财务_删0_label0.08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/Zhongxing财务_删0_label0.09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/zscore/Zhongxing财务_删0_label0.01_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/zscore/Zhongxing财务_删0_label0.02_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/zscore/Zhongxing财务_删0_label0.03_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/zscore/Zhongxing财务_删0_label0.04_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/zscore/Zhongxing财务_删0_label0.05_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/zscore/Zhongxing财务_删0_label0.06_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/zscore/Zhongxing财务_删0_label0.07_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/zscore/Zhongxing财务_删0_label0.08_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/财务数据/zscore/Zhongxing财务_删0_label0.09_zscore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/通过涨跌幅打label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/data_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/data_sample.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/fenci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/getCategory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/stock_dict.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/stopwords2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/temp_file.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/text_cnn_rnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/training_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/中兴新闻分词.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/新闻分词.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/checkpoints_1624449205/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/checkpoints_1624449205/model-2200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/checkpoints_1624449205/model-2200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/checkpoints_1624449205/model-2200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/checkpoints_1624449205/model-2400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/checkpoints_1624449205/model-2400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/checkpoints_1624449205/model-2400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/checkpoints_1624449205/model-2600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/checkpoints_1624449205/model-2600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/checkpoints_1624449205/model-2600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/checkpoints_1624449205/model-3000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/checkpoints_1624449205/model-3000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/checkpoints_1624449205/model-3000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/trained_results_1624449205/best_model.ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/trained_results_1624449205/best_model.ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/trained_results_1624449205/best_model.ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/trained_results_1624449205/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/trained_results_1624449205/embeddings.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/trained_results_1624449205/labels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/trained_results_1624449205/matrics.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/trained_results_1624449205/trained_parameters.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/训练结果/trained_results_1624449205/words_index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码/新闻事件分类器/预测结果/predicted_results_1624449205/predictions_all_2020-07-15-3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/操作流程.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据集/data_sample.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据集/stock_dict.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据集/stopwords2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据集/temp_file.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据集/~$中兴通讯10-20新闻数据集.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据集/~$中兴通讯10-20财务数据.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据集/中兴新闻分词.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据集/中兴通讯10-20新闻数据集.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据集/中兴通讯10-20财务数据.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据集/中兴通讯新闻分词.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据集/格力电器10-20新闻数据集.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据集/格力电器10-20财务数据.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据集/格力电器新闻分词.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文件说明.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/代码/个股走势预测/可视化/可视化.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+              <folding>
+                <element signature="e#85#103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="75" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectId" id="1uLakOWi7EAAxd7fuHEsOqwC0AU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.可视化">
+    <configuration name="建立可视化输入数据" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="stock-prediction-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代码/个股走势预测/可视化" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代码/个股走势预测/可视化/建立可视化输入数据.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="删除文档中的0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="stock-prediction-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/删除文档中的0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="可视化" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stock-prediction-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\anaconda\anacondareally\envs\test\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代码/个股走势预测/可视化" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代码/个股走势预测/可视化/可视化.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="可视化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="stock-prediction-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代码/个股走势预测/可视化" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代码/个股走势预测/可视化/可视化.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fenci" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="stock-prediction-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代码/新闻事件分类器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代码/新闻事件分类器/fenci.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="multi_input_LSTM_event+senti" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="stock-prediction-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代码/个股走势预测/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代码/个股走势预测/models/multi_input_LSTM_event+senti.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.可视化" />
+        <item itemvalue="Python.删除文档中的0" />
+        <item itemvalue="Python.fenci" />
+        <item itemvalue="Python.建立可视化输入数据" />
+        <item itemvalue="Python.multi_input_LSTM_event+senti" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd0ebcd0-3ec2-49aa-bc8b-654df4acd226" name="Default Changelist" comment="" />
+      <created>1624447465132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624447465132</updated>
+      <workItem from="1625205189114" duration="251000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="251000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="88" width="1092" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624448482680">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="88" width="1092" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1624448482680" />
+    <state x="554" y="271" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1624448468007">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="554" y="271" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1600.860@0.0.1600.860" timestamp="1624448468007" />
+    <state x="515" y="78" key="#data_helper" timestamp="1624448857400">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="515" y="78" key="#data_helper/0.0.1600.860@0.0.1600.860" timestamp="1624448857400" />
+    <state x="515" y="78" key="#getCategory" timestamp="1624672413170">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="515" y="78" key="#getCategory/0.0.1600.860@0.0.1600.860" timestamp="1624672413170" />
+    <state x="515" y="78" key="#train" timestamp="1624449184703">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="515" y="78" key="#train/0.0.1600.860@0.0.1600.860" timestamp="1624449184703" />
+    <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1624453240647">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="188" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1624453240647" />
+    <state width="1579" height="244" key="GridCell.Tab.0.bottom" timestamp="1625138943946">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="244" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1625138943946" />
+    <state width="1579" height="244" key="GridCell.Tab.0.center" timestamp="1625138943946">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="244" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1625138943946" />
+    <state width="1579" height="244" key="GridCell.Tab.0.left" timestamp="1625138943946">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="244" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1625138943946" />
+    <state width="1579" height="244" key="GridCell.Tab.0.right" timestamp="1625138943946">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="244" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1625138943946" />
+    <state width="1579" height="267" key="GridCell.Tab.1.bottom" timestamp="1625138401543">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="267" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1625138401543" />
+    <state width="1579" height="267" key="GridCell.Tab.1.center" timestamp="1625138401542">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="267" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1625138401542" />
+    <state width="1579" height="267" key="GridCell.Tab.1.left" timestamp="1625138401542">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="267" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1625138401542" />
+    <state width="1579" height="267" key="GridCell.Tab.1.right" timestamp="1625138401543">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="267" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1625138401543" />
+    <state x="303" y="75" key="SettingsEditor" timestamp="1624453252524">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="303" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1624453252524" />
+    <state x="492" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1625022652883">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="492" y="257" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1625022652883" />
+    <state x="437" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1625137225461">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="437" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.860@0.0.1600.860" timestamp="1625137225461" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/学习文件/pytorch/大三下学期工作室项目——股票数据分析预测/stock-prediction-main/代码/个股走势预测/models/multi_input_LSTM_event.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/代码/个股走势预测/models/multi_input_LSTM_event.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/代码/个股走势预测/models/finance_LSTM.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/代码/个股走势预测/models/multi_input_LSTM_event+senti.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/代码/个股走势预测/建立财务矩阵/删除文档中的0.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/stock_prediction_main$.coverage" NAME="可视化 Coverage Results" MODIFIED="1625205292366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/代码/个股走势预测/可视化" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/代码/个股走势预测/可视化/可视化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+          <folding>
+            <element signature="e#85#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
